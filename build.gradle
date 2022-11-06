@@ -1,0 +1,22 @@
+plugins {
+    id "application"
+}
+
+apply plugin : "java" 
+ext {
+   javaMainClass = "org.usd232.robotics.CompilerMain"
+}
+
+application {
+    getMainClass().set(javaMainClass)
+}
+ 
+repositories { mavenCentral() }
+
+dependencies {
+    implementation group: 'com.opencsv', name: 'opencsv', version: '5.7.1'
+
+    implementation 'org.projectlombok:lombok:1.18.24'
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+	annotationProcessor 'org.projectlombok:lombok:1.18.24'
+}

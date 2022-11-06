@@ -1,0 +1,4 @@
+MatchId,TeamId,AllianceColor,AutoCargoLower,AutoCargoOuter,AutoHeld,AutoMoves,TeleOpCargoLower,TeleOpCargoOuter,TeleOpCanSeeColor,GrabBarPosition,Won
+0,1810,blue,0,0,yes,yes,0,0,no,mid,yes
+1,1811,blue,1,1,yes,yes,1,1,no,mid,yes
+2,1812,blue,2,2,yes,yes,2,2,no,mid,yes
