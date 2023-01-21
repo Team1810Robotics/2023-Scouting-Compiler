@@ -52,7 +52,7 @@ public class Writer {
 		// adding header
         if (header)
             // FIXME WHEN UPDATING: update header to make sense
-		    records.add(new String[] { "MatchId", "TeamId", "AllianceColor", "AutoCargoLower", "AutoCargoOuter", "AutoHeld", "AutoMoves", "TeleOpCargoLower", "TeleOpCargoOuter", "TeleOpCanSeeColor", "GrabBarPosition", "Won"});
+		    records.add(new String[] { "MatchId", "TeamId", "Color", "AutoLowCone","AutoLowCube","AutoMidCone","AutoMidCube","AutoHighCone","AutoHighCube","AutoLeftComm","AutoDocked","AutoEngaged","TeleLowCone","TeleLowCube","TeleMidCone","TeleMidCube","TeleHighCone","TeleHighCube","TeleLeftComm","TeleDocked","TeleEngaged","TeleTeamRole","TeleDirtyPlay","EndGameNotes","Won"});
 
         // start index at 1 so we can skip the header 
         // of the file because its added above

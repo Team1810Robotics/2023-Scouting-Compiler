@@ -13,20 +13,33 @@ public class ScoutingData {
     private String matchId;
     private String teamId;
     private String allianceColor;
-    private String autoLow;
-    private String autoHigh;
-    private String autoHeld;
-    private String autoTaxi;
-    private String teleOpLow;
-    private String teleOpHigh;
-    private String teleOpColorSensor;
-    private String teleOpClimbSpot;
+    private String autoLowCube;
+    private String autoLowCone;
+    private String autoMidCone;
+    private String autoMidCube;
+    private String autoHighCone;
+    private String autoHighCube;
+    private String autoLeftComm;
+    private String autoDocked;
+    private String autoEngaged;
+    private String teleOpLowCone;
+    private String teleOpLowCube;
+    private String teleOpMidCone;
+    private String teleOpMidCube;
+    private String teleOpHighCone;
+    private String teleOpHighCube;
+    private String teleOpLeftComm;
+    private String teleOpDocked;
+    private String teleOpEngaged;
+    private String teleOpTeamRole;
+    private String teleOpDirtyPlay;
+    private String endGameNotes;
     private String won;
 
     /** prints the beans in a semi nice way? */
     public String toString() {
-        return String.format("MatchID = %s; TeamID = %s; Color = %s; autoLow = %s; autoHigh = %s; autoHeld = %s; autoTaxi = %s; teleOpLow = %s; teleOpHigh = %s; colorSensor = %s; climb = %s; won = %s", 
-            matchId, teamId, allianceColor, autoLow, autoHigh, autoHeld, autoTaxi, teleOpLow, teleOpHigh, teleOpColorSensor, teleOpClimbSpot, won);
+        return String.format("MatchID = %s; TeamID = %s; Color = %s; autoLowCone = %s; autoLowCube = %s; autoMidCone = %s; autoMidCube = %s; autoHighCone = %s; autoHighCube = %s; autoLeftComm = %s; autoDocked = %s; autoEngaged = %s; teleOpLowCone = %s; teleOpLowCube = %s; teleOpMidCone = %s; teleOpMidCube = %s; teleOpHighCone = %s; teleOpHighCube = %s; teleOpLeftComm = %s; teleOpDocked = %s; teleOpEngaged = %s; teleOpTeamRole = %s; teleOpDirtyPlay = %s; endGameNotes = %s; won = %s", 
+            matchId, teamId, allianceColor, autoLowCone, autoLowCube, autoMidCone, autoMidCube, autoHighCone, autoHighCube, autoLeftComm, autoDocked, autoEngaged, teleOpLowCone, teleOpLowCube, teleOpMidCone, teleOpMidCube, teleOpHighCone, teleOpHighCube, teleOpLeftComm, teleOpDocked, teleOpEngaged, teleOpTeamRole, teleOpDirtyPlay, endGameNotes, won);
     }
 
     /** getters */
