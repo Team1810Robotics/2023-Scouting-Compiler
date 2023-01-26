@@ -28,7 +28,7 @@ public class ScoutingData {
     private String teleOpMidCube;
     private String teleOpHighCone;
     private String teleOpHighCube;
-    private String teleOpLeftComm;
+    private String teleOpInComm;
     private String teleOpDocked;
     private String teleOpEngaged;
     private String teleOpTeamRole;
