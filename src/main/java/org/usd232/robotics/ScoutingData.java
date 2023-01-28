@@ -38,8 +38,8 @@ public class ScoutingData {
 
     /** prints the beans in a semi nice way? */
     public String toString() {
-        return String.format("MatchID = %s; TeamID = %s; Color = %s; autoLowCone = %s; autoLowCube = %s; autoMidCone = %s; autoMidCube = %s; autoHighCone = %s; autoHighCube = %s; autoLeftComm = %s; autoDocked = %s; autoEngaged = %s; teleOpLowCone = %s; teleOpLowCube = %s; teleOpMidCone = %s; teleOpMidCube = %s; teleOpHighCone = %s; teleOpHighCube = %s; teleOpLeftComm = %s; teleOpDocked = %s; teleOpEngaged = %s; teleOpTeamRole = %s; teleOpDirtyPlay = %s; endGameNotes = %s; won = %s", 
-            matchId, teamId, allianceColor, autoLowCone, autoLowCube, autoMidCone, autoMidCube, autoHighCone, autoHighCube, autoLeftComm, autoDocked, autoEngaged, teleOpLowCone, teleOpLowCube, teleOpMidCone, teleOpMidCube, teleOpHighCone, teleOpHighCube, teleOpLeftComm, teleOpDocked, teleOpEngaged, teleOpTeamRole, teleOpDirtyPlay, endGameNotes, won);
+        return String.format("MatchID = %s; TeamID = %s; Color = %s; autoLowCone = %s; autoLowCube = %s; autoMidCone = %s; autoMidCube = %s; autoHighCone = %s; autoHighCube = %s; autoLeftComm = %s; autoDocked = %s; autoEngaged = %s; teleOpLowCone = %s; teleOpLowCube = %s; teleOpMidCone = %s; teleOpMidCube = %s; teleOpHighCone = %s; teleOpHighCube = %s; teleOpInComm = %s; teleOpDocked = %s; teleOpEngaged = %s; teleOpTeamRole = %s; teleOpDirtyPlay = %s; endGameNotes = %s; won = %s", 
+            matchId, teamId, allianceColor, autoLowCone, autoLowCube, autoMidCone, autoMidCube, autoHighCone, autoHighCube, autoLeftComm, autoDocked, autoEngaged, teleOpLowCone, teleOpLowCube, teleOpMidCone, teleOpMidCube, teleOpHighCone, teleOpHighCube, teleOpInComm, teleOpDocked, teleOpEngaged, teleOpTeamRole, teleOpDirtyPlay, endGameNotes, won);
     }
 
     /** getters */
