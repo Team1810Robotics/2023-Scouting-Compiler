@@ -61,9 +61,13 @@ public class Writer {
             if (data.getMatchId() != "MatchId") {
                 // FIXME WHEN UPDATING: make getters return correct values
                 records.add(new String[] { data.getMatchId(), data.getTeamId(), data.getAllianceColor(),
-                                        data.getAutoLow(), data.getAutoHigh(), data.getAutoHeld(), data.getAutoTaxi(),
-                                        data.getTeleOpLow(), data.getTeleOpHigh(), data.getTeleOpColorSensor(),
-                                        data.getTeleOpClimbSpot(), data.getWon() });
+                                        data.getAutoLowCone(), data.getAutoLowCube(), data.getAutoHighCone(),
+                                         data.getAutoMidCube(), data.getAutoMidCone(),
+                                         data.getAutoHighCube(), data.getAutoLeftComm(), data.getEndGameNotes(),
+                                         data.getTeleOpLowCube(), data.getTeleOpMidCube(), data.getTeleOpHighCube(),
+                                         data.getTeleOpLowCone(), data.getTeleOpMidCone(), data.getTeleOpHighCone(),
+                                         data.getTeleOpEngaged(), data.getTeleOpTeamRole(), data.getTeleOpDirtyPlay(),
+                                         data.getTeleOpLeftComm(), data.getTeleOpDocked(), data.getWon() });
             }
 		}
 		return records;
