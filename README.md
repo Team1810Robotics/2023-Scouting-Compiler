@@ -1,4 +1,4 @@
-# Cowtown-2022-Scouting-Compiler
+# 2023-Scouting Compiler
 
 this is now set up to find all the csv files in a provided directory.
 it only goes one deep so if you have any sub dirs in the main one provided then they will be ignored
