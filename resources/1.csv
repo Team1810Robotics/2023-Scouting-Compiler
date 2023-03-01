@@ -1,4 +1,4 @@
-MatchId,TeamId,AllianceColor,AutoCargoLower,AutoCargoOuter,AutoHeld,AutoMoves,TeleOpCargoLower,TeleOpCargoOuter,TeleOpCanSeeColor,GrabBarPosition,Won
-0,1810,blue,0,0,yes,yes,0,0,no,mid,yes
-1,1811,blue,1,1,yes,yes,1,1,no,mid,yes
-2,1812,blue,2,2,yes,yes,2,2,no,mid,yes
+MatchId,TeamId,Color,AutoLowCone,AutoLowCube,AutoMidCone,AutoMidCube,AutoHighCone,AutoHighCube,AutoLeftComm,AutoDocked,AutoEngaged,TeleLowCone,TeleLowCube,TeleMidCone,TeleMidCube,TeleHighCone,TeleHighCube,TeleLeftComm,TeleDocked,TeleEngaged,TeleTeamRole,TeleDirtyPlay,EndGameNotes,Won
+0,1810,blue,0,0,0,0,0,0,0,yes,no,0,0,0,0,0,0,0,yes,no,runner,no,,yes
+1,1811,blue,1,1,1,1,1,1,1,yes,no,1,1,1,1,1,1,1,yes,no,runner,no,,yes
+2,1812,blue,2,2,2,2,2,2,2,yes,no,2,2,2,2,2,2,2,yes,no,runner,no,,yes

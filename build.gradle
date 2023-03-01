@@ -2,9 +2,9 @@ plugins {
     id "application"
 }
 
-apply plugin : "java" 
+apply plugin : "java"
 ext {
-   javaMainClass = "org.usd232.robotics.CompilerMain"
+   javaMainClass = "io.github.team1810robotics.compiler.Main"
 }
 
 application {
