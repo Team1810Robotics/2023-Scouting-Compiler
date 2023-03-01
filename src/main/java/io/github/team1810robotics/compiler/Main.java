@@ -15,23 +15,26 @@ import java.util.stream.Collectors;
 public class Main {
     private static final int FILE_DEPTH = 1;
     private static final String COMPILED_FILE_NAME = "compiled";
+    private static String csvFolderPath = "resources";
 
     private static List<String[]> data = new ArrayList<>();
 
     public static void main(String[] args) {
         if (args.length == 0) {
-            System.err.println("Need to give a path to the folder of csv files\n" +
-                    "run with:\n\tgradlew run --args=\"path/to/folder\"");
-            return;
+            System.err.println("\033[33;1;4mWarning!\u001b[0m\n" +
+                    "Should give a path to the folder of csv files\n" +
+                    "run with:\n\tgradlew run --args=\"path/to/folder\"\nDefaults to \"" + csvFolderPath + "\"");
+        } else {
+            csvFolderPath = args[0];
         }
 
         try {
             // read into data list
-            List<String> filePaths = getFilePaths(args[0]);
+            List<String> filePaths = getFilePaths(csvFolderPath);
             readFiles(data, filePaths);
 
             // write from the data list to the compiled csv
-            String outputFile = args[0] + "/" + COMPILED_FILE_NAME + ".csv";
+            String outputFile = csvFolderPath + "/" + COMPILED_FILE_NAME + ".csv";
             writeToFile(data, outputFile);
         } catch (Exception e) {
             e.printStackTrace();
