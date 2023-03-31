@@ -2,9 +2,9 @@ plugins {
     id "application"
 }
 
-apply plugin : "java" 
+apply plugin : "java"
 ext {
-   javaMainClass = "org.usd232.robotics.CompilerMain"
+   javaMainClass = "io.github.team1810robotics.compiler.Main"
 }
 
 application {
@@ -12,11 +12,3 @@ application {
 }
  
 repositories { mavenCentral() }
-
-dependencies {
-    implementation group: 'com.opencsv', name: 'opencsv', version: '5.7.1'
-
-    implementation 'org.projectlombok:lombok:1.18.24'
-    compileOnly 'org.projectlombok:lombok:1.18.24'
-	annotationProcessor 'org.projectlombok:lombok:1.18.24'
-}
